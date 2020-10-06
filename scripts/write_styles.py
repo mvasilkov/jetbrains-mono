@@ -42,6 +42,7 @@ scss = '''
     local('JetBrainsMono-{suffix}'),
     url('{font_dir}/JetBrainsMono-{suffix}.woff2') format('woff2'),
     url('{font_dir}/JetBrainsMono-{suffix}.woff') format('woff');
+  font-display: swap;
 }}
 '''
 
