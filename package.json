@@ -2,8 +2,20 @@
   "name": "jetbrains-mono",
   "version": "1.0.0",
   "description": "JetBrains Mono – the free and open-source typeface for developers",
+  "files": [
+    "fonts/web/JetBrainsMono-*.woff",
+    "fonts/web/JetBrainsMono-*.woff2",
+    "css/jetbrains-mono.css",
+    "scss/jetbrains-mono.scss"
+  ],
   "main": "css/jetbrains-mono.css",
   "repository": "https://github.com/mvasilkov/jetbrains-mono.git",
   "author": "Mark Vasilkov (https://github.com/mvasilkov)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "build": "./scripts/write_styles.py && node-sass -o css scss/jetbrains-mono.scss"
+  }
 }
