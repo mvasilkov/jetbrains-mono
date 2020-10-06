@@ -5,3 +5,5 @@ lib
 source/JetBrainsMono.backup
 env
 .DS_Store
+node_modules/
+yarn.lock
