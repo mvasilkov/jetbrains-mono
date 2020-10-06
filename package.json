@@ -1,0 +1,9 @@
+{
+  "name": "jetbrains-mono",
+  "version": "1.0.0",
+  "description": "JetBrains Mono – the free and open-source typeface for developers",
+  "main": "css/jetbrains-mono.css",
+  "repository": "https://github.com/mvasilkov/jetbrains-mono.git",
+  "author": "Mark Vasilkov (https://github.com/mvasilkov)",
+  "license": "MIT"
+}
