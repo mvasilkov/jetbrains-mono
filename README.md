@@ -8,7 +8,7 @@ JetBrains Mono – the free and open-source typeface for developers
 
 ---
 
-This is a convenience package to self host the [JetBrains Mono][jetbrains-site] font in web apps.
+This is a convenience package to self host the [JetBrains Mono][jetbrains-site] font for use in web apps.
 
 I don't claim any rights to the font itself, I just wrote the CSS file.
 
@@ -45,8 +45,17 @@ $font-dir: './node_modules/jetbrains-mono/fonts/web';
 @import '~jetbrains-mono/scss/jetbrains-mono';
 ```
 
+License
+---
+
+The files I authored are licensed under the [MIT License][license].
+
+JetBrains Mono typeface is available under the [OFL-1.1 License][font-license] and can be used free of charge, for both commercial and non-commercial purposes.
+
 [jetbrains-npm-badge]: https://img.shields.io/npm/v/jetbrains-mono.svg?style=flat
 [jetbrains-npm-url]: https://www.npmjs.com/package/jetbrains-mono
 [jetbrains-dependencies-badge]: https://img.shields.io/librariesio/release/npm/jetbrains-mono?style=flat
 [jetbrains-dependencies-url]: https://www.npmjs.com/package/jetbrains-mono?activeTab=dependencies
 [jetbrains-site]: https://jetbrains.com/mono
+[license]: https://github.com/mvasilkov/jetbrains-mono/blob/master/LICENSE
+[font-license]: https://github.com/JetBrains/JetBrainsMono/blob/master/LICENSE
