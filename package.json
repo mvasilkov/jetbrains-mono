@@ -1,6 +1,6 @@
 {
   "name": "jetbrains-mono",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JetBrains Mono – the free and open-source typeface for developers",
   "files": [
     "fonts/web/JetBrainsMono-*.woff",
