@@ -1,12 +1,11 @@
-$font-dir: '../fonts/web' !default;
+$font-dir: '../fonts/webfonts' !default;
 @font-face {
   font-family: 'JetBrains Mono';
   font-style: normal;
   font-weight: 100;
   src: local('JetBrains Mono Thin'),
     local('JetBrainsMono-Thin'),
-    url('#{$font-dir}/JetBrainsMono-Thin.woff2') format('woff2'),
-    url('#{$font-dir}/JetBrainsMono-Thin.woff') format('woff');
+    url('#{$font-dir}/JetBrainsMono-Thin.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -16,8 +15,7 @@ $font-dir: '../fonts/web' !default;
   font-weight: 100;
   src: local('JetBrains Mono Thin Italic'),
     local('JetBrainsMono-ThinItalic'),
-    url('#{$font-dir}/JetBrainsMono-ThinItalic.woff2') format('woff2'),
-    url('#{$font-dir}/JetBrainsMono-ThinItalic.woff') format('woff');
+    url('#{$font-dir}/JetBrainsMono-ThinItalic.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -27,8 +25,7 @@ $font-dir: '../fonts/web' !default;
   font-weight: 200;
   src: local('JetBrains Mono ExtraLight'),
     local('JetBrainsMono-ExtraLight'),
-    url('#{$font-dir}/JetBrainsMono-ExtraLight.woff2') format('woff2'),
-    url('#{$font-dir}/JetBrainsMono-ExtraLight.woff') format('woff');
+    url('#{$font-dir}/JetBrainsMono-ExtraLight.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -38,8 +35,7 @@ $font-dir: '../fonts/web' !default;
   font-weight: 200;
   src: local('JetBrains Mono ExtraLight Italic'),
     local('JetBrainsMono-ExtraLightItalic'),
-    url('#{$font-dir}/JetBrainsMono-ExtraLightItalic.woff2') format('woff2'),
-    url('#{$font-dir}/JetBrainsMono-ExtraLightItalic.woff') format('woff');
+    url('#{$font-dir}/JetBrainsMono-ExtraLightItalic.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -49,8 +45,7 @@ $font-dir: '../fonts/web' !default;
   font-weight: 300;
   src: local('JetBrains Mono Light'),
     local('JetBrainsMono-Light'),
-    url('#{$font-dir}/JetBrainsMono-Light.woff2') format('woff2'),
-    url('#{$font-dir}/JetBrainsMono-Light.woff') format('woff');
+    url('#{$font-dir}/JetBrainsMono-Light.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -60,8 +55,7 @@ $font-dir: '../fonts/web' !default;
   font-weight: 300;
   src: local('JetBrains Mono Light Italic'),
     local('JetBrainsMono-LightItalic'),
-    url('#{$font-dir}/JetBrainsMono-LightItalic.woff2') format('woff2'),
-    url('#{$font-dir}/JetBrainsMono-LightItalic.woff') format('woff');
+    url('#{$font-dir}/JetBrainsMono-LightItalic.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -71,8 +65,7 @@ $font-dir: '../fonts/web' !default;
   font-weight: 400;
   src: local('JetBrains Mono Regular'),
     local('JetBrainsMono-Regular'),
-    url('#{$font-dir}/JetBrainsMono-Regular.woff2') format('woff2'),
-    url('#{$font-dir}/JetBrainsMono-Regular.woff') format('woff');
+    url('#{$font-dir}/JetBrainsMono-Regular.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -82,8 +75,7 @@ $font-dir: '../fonts/web' !default;
   font-weight: 400;
   src: local('JetBrains Mono Italic'),
     local('JetBrainsMono-Italic'),
-    url('#{$font-dir}/JetBrainsMono-Italic.woff2') format('woff2'),
-    url('#{$font-dir}/JetBrainsMono-Italic.woff') format('woff');
+    url('#{$font-dir}/JetBrainsMono-Italic.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -93,8 +85,7 @@ $font-dir: '../fonts/web' !default;
   font-weight: 500;
   src: local('JetBrains Mono Medium'),
     local('JetBrainsMono-Medium'),
-    url('#{$font-dir}/JetBrainsMono-Medium.woff2') format('woff2'),
-    url('#{$font-dir}/JetBrainsMono-Medium.woff') format('woff');
+    url('#{$font-dir}/JetBrainsMono-Medium.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -104,8 +95,7 @@ $font-dir: '../fonts/web' !default;
   font-weight: 500;
   src: local('JetBrains Mono Medium Italic'),
     local('JetBrainsMono-MediumItalic'),
-    url('#{$font-dir}/JetBrainsMono-MediumItalic.woff2') format('woff2'),
-    url('#{$font-dir}/JetBrainsMono-MediumItalic.woff') format('woff');
+    url('#{$font-dir}/JetBrainsMono-MediumItalic.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -115,8 +105,7 @@ $font-dir: '../fonts/web' !default;
   font-weight: 700;
   src: local('JetBrains Mono Bold'),
     local('JetBrainsMono-Bold'),
-    url('#{$font-dir}/JetBrainsMono-Bold.woff2') format('woff2'),
-    url('#{$font-dir}/JetBrainsMono-Bold.woff') format('woff');
+    url('#{$font-dir}/JetBrainsMono-Bold.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -126,8 +115,7 @@ $font-dir: '../fonts/web' !default;
   font-weight: 700;
   src: local('JetBrains Mono Bold Italic'),
     local('JetBrainsMono-BoldItalic'),
-    url('#{$font-dir}/JetBrainsMono-BoldItalic.woff2') format('woff2'),
-    url('#{$font-dir}/JetBrainsMono-BoldItalic.woff') format('woff');
+    url('#{$font-dir}/JetBrainsMono-BoldItalic.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -137,8 +125,7 @@ $font-dir: '../fonts/web' !default;
   font-weight: 800;
   src: local('JetBrains Mono ExtraBold'),
     local('JetBrainsMono-ExtraBold'),
-    url('#{$font-dir}/JetBrainsMono-ExtraBold.woff2') format('woff2'),
-    url('#{$font-dir}/JetBrainsMono-ExtraBold.woff') format('woff');
+    url('#{$font-dir}/JetBrainsMono-ExtraBold.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -148,7 +135,6 @@ $font-dir: '../fonts/web' !default;
   font-weight: 800;
   src: local('JetBrains Mono ExtraBold Italic'),
     local('JetBrainsMono-ExtraBoldItalic'),
-    url('#{$font-dir}/JetBrainsMono-ExtraBoldItalic.woff2') format('woff2'),
-    url('#{$font-dir}/JetBrainsMono-ExtraBoldItalic.woff') format('woff');
+    url('#{$font-dir}/JetBrainsMono-ExtraBoldItalic.woff2') format('woff2');
   font-display: swap;
 }
