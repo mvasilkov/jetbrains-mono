@@ -42,7 +42,7 @@ Usage (SCSS)
 Set the `$font-dir` variable to the correct path, as shown here:
 
 ```scss
-$font-dir: './node_modules/jetbrains-mono/fonts/web';
+$font-dir: './node_modules/jetbrains-mono/fonts/webfonts';
 
 @import '~jetbrains-mono/scss/jetbrains-mono';
 ```
