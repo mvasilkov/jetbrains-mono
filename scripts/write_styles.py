@@ -40,14 +40,13 @@ scss = '''
   font-weight: {weight};
   src: local('JetBrains Mono{suffix_space}'),
     local('JetBrainsMono-{suffix}'),
-    url('{font_dir}/JetBrainsMono-{suffix}.woff2') format('woff2'),
-    url('{font_dir}/JetBrainsMono-{suffix}.woff') format('woff');
+    url('{font_dir}/JetBrainsMono-{suffix}.woff2') format('woff2');
   font-display: swap;
 }}
 '''
 
 font_dir = '#{$font-dir}'
-font_dir_init = "$font-dir: '../fonts/web' !default;"
+font_dir_init = "$font-dir: '../fonts/webfonts' !default;"
 
 test_html = '''
 <!doctype html>
