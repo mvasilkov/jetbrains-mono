@@ -12,7 +12,9 @@ This is a convenience package to self host the [JetBrains Mono][jetbrains-site] 
 
 I don't claim any rights to the font itself, I just wrote the CSS file.
 
-This package is based on the version 2.221 of the font.
+This package is based on the version 2.230 of the font.
+
+<sup>This version is listed as "2.300 (unreleased) EAP" in the changelog.</sup>
 
 Installation
 ---
