@@ -1,11 +1,14 @@
 {
   "name": "jetbrains-mono",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "JetBrains Mono – the free and open-source typeface for developers",
   "files": [
     "fonts/webfonts/JetBrainsMono-*.woff2",
+    "fonts/webfonts/JetBrainsMonoNL-*.woff2",
     "css/jetbrains-mono.css",
-    "scss/jetbrains-mono.scss"
+    "css/jetbrains-mono-nl.css",
+    "scss/jetbrains-mono.scss",
+    "scss/jetbrains-mono-nl.scss"
   ],
   "main": "css/jetbrains-mono.css",
   "repository": "https://github.com/mvasilkov/jetbrains-mono.git",
@@ -15,6 +18,6 @@
     "node-sass": "^6.0.1"
   },
   "scripts": {
-    "build": "./scripts/write_styles.py && node-sass -o css scss/jetbrains-mono.scss"
+    "build": "./scripts/build_package.sh"
   }
 }
