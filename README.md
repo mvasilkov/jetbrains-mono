@@ -38,6 +38,12 @@ Alternatively, you can just include it in HTML like this:
 <link rel="stylesheet" href="./node_modules/jetbrains-mono/css/jetbrains-mono.css">
 ```
 
+The variant of the font without ligatures (JetBrains Mono NL) is also available:
+
+```html
+<link rel="stylesheet" href="./node_modules/jetbrains-mono/css/jetbrains-mono-nl.css">
+```
+
 Usage (SCSS)
 ---
 
@@ -47,6 +53,12 @@ Set the `$font-dir` variable to the correct path, as shown here:
 $font-dir: './node_modules/jetbrains-mono/fonts/webfonts';
 
 @import '~jetbrains-mono/scss/jetbrains-mono';
+```
+
+Without ligatures:
+
+```scss
+@import '~jetbrains-mono/scss/jetbrains-mono-nl';
 ```
 
 License

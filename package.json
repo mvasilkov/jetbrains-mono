@@ -2,6 +2,13 @@
   "name": "jetbrains-mono",
   "version": "1.0.5",
   "description": "JetBrains Mono – the free and open-source typeface for developers",
+  "keywords": [
+    "font",
+    "font family",
+    "typeface",
+    "webfont",
+    "woff2"
+  ],
   "files": [
     "fonts/webfonts/JetBrainsMono-*.woff2",
     "fonts/webfonts/JetBrainsMonoNL-*.woff2",
