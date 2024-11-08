@@ -1,6 +1,6 @@
 {
   "name": "jetbrains-mono",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "JetBrains Mono – the free and open-source typeface for developers",
   "keywords": [
     "font",
@@ -22,7 +22,7 @@
   "author": "Mark Vasilkov (https://github.com/mvasilkov)",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^6.0.1"
+    "node-sass": "^9.0.0"
   },
   "scripts": {
     "build": "./scripts/build_package.sh"
